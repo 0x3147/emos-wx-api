@@ -3,7 +3,7 @@ package com.example.emos.wx.exception;
 import lombok.Data;
 
 @Data
-public class EmosException extends Throwable {
+public class EmosException extends RuntimeException {
     public String msg;
     public int code = 500;
 

@@ -62,10 +62,7 @@ logging:
 
 emos:
   jwt:
-    #密钥
     secret: abc123456
-    #令牌过期时间（天）
-    expire:  5
-    #令牌缓存时间（天数）
+    expiration: 5
     cache-expire: 10
 
