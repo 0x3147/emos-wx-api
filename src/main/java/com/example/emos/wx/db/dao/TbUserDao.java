@@ -33,4 +33,11 @@ public interface TbUserDao {
      * @param openId 小程序openId
      */
     Integer searchIdByOpenId(String openId);
+
+    /**
+     * @desc 查询用户权限
+     * @Author 康佳星
+     * @Date 2023/1/29
+     */
+    Set<String> searchUserPermissions(int userId);
 }

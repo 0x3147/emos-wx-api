@@ -66,3 +66,6 @@ emos:
     expiration: 5
     cache-expire: 10
 
+wx:
+  app-id: wx467bc5e885b9b71b
+  app-secret: 6f1fb0bcdd4fe3448e9bc9ecdbb9ac6e
